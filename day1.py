@@ -1,14 +1,15 @@
 ## Part 1
-print('What is your name?')
-userName = input()
-print('What month were you born in?')
-monthAnswer = input()
-print('Hello ' + userName + '!')
+userName = input('What is your name? ')
+monthAnswer = input('What month were you born in? ')
 nameLength = len(userName)
-print('Your name has ' + nameLength + ' letters.')
 
+print(f'Hello {userName}!')
+print(f'There are {nameLength} letters in your name. ')
 
-
+if monthAnswer == 'May':
+    print('Happy birth Month!')
+else:
+    print('Your birthday is another month')
 
 # birthMonth = 'May'
 # if birthMonth == 'May':
