@@ -11,12 +11,16 @@ if monthAnswer == 'May':
 else:
     print('Your birthday is another month')
 
-# birthMonth = 'May'
-# if birthMonth == 'May':
-#     print('Happy birth month!')
-# else:
-#     print('TEST')
+## Part 2
+classNames = []
+while True:
+    className = input('Enter the names of your class(es), or hit the enter key to exit. ')
+    if className == '':
+        break
+    classNames.append(className)
 
+for className in classNames:
+    print(className)
 
 
 
